@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Guairaçá: Decisões no Futuro</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Guairaçá: Decisões no Futuro</title>
 </head>
 <body>
-    <div class="caixa-principal">
-        <div class="cabecalho">
-            <img src="unnamed.png" alt="Logo da cidade" class="imagem-logo" />
-            <h1>Guairaçá: Decisões no Futuro</h1>
-        </div>
-
-        <!-- TELA INICIAL -->
-        <div class="caixa-inicio">
-            <p>Digite seu nome para começar sua jornada como prefeito:</p>
-            <input type="text" id="nomeJogador" placeholder="Seu nome aqui" />
-            <button onclick="iniciarJogo()">Começar</button>
-        </div>
-
-        <!-- PERGUNTAS E RESULTADO -->
-        <div class="caixa-jogo" style="display: none;">
-            <div class="caixa-perguntas"></div>
-            <div class="caixa-alternativas"></div>
-            <div class="caixa-resultado">
-                <p class="texto-resultado"></p>
-                <button id="botaoReiniciar" style="display: none;" onclick="reiniciarJogo()">Jogar Novamente</button>
-            </div>
-        </div>
+  <div class="caixa-principal">
+    <div class="cabecalho">
+      <img src="unnamed.png" alt="Logo da cidade" class="imagem-logo" />
+      <h1>Guairaçá: Decisões no Futuro</h1>
     </div>
 
-    <!-- Música de fundo -->
-    <audio id="musicaFundo" src="videoplayback.mp3" loop></audio>
+    <!-- TELA INICIAL -->
+    <div class="caixa-inicio">
+      <p>Digite seu nome para começar sua jornada como prefeito:</p>
+      <input type="text" id="nomeJogador" placeholder="Seu nome aqui" />
+      <button onclick="iniciarJogo()">Começar</button>
+    </div>
 
-    <script src="script.js"></script>
+    <!-- PERGUNTAS E RESULTADO -->
+    <div class="caixa-jogo" style="display: none;">
+      <div class="caixa-perguntas"></div>
+      <div class="caixa-alternativas"></div>
+      <div class="caixa-resultado">
+        <p class="texto-resultado"></p>
+        <button id="botaoReiniciar" style="display: none;" onclick="reiniciarJogo()">Jogar Novamente</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Música de fundo -->
+  <audio id="musicaFundo" src="videoplayback.mp3" loop></audio>
+
+  <script src="script.js"></script>
 </body>
 </html>
